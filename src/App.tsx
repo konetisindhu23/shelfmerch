@@ -17,7 +17,7 @@ import ProductDetail from "./pages/ProductDetail";
 import DesignerEditor from "./pages/DesignEditor";
 import Auth from "./pages/Auth";
 import VerifyEmail from "./pages/VerifyEmail";
-// import VerifyPhone from "./pages/VerifyPhone";
+import VerifyPhone from "./pages/VerifyPhone";
 import Dashboard from "./pages/Dashboard";
 import ProfilePage from "./pages/ProfilePage";
 import Orders from "./pages/Orders";
@@ -116,7 +116,7 @@ const App = () => (
                       <Route path="/products/:id" element={<ProductDetail />} />
                       <Route path="/auth" element={<Auth />} />
                       <Route path="/verify-email" element={<VerifyEmail />} />
-                      {/* <Route path="/verify-phone" element={<VerifyPhone />} /> */}
+                      <Route path="/verify-phone" element={<VerifyPhone />} />
                       {/* Pricing */}
                       <Route path="/pricing" element={<PricingPage />} />
                       {/* Solutions */}
